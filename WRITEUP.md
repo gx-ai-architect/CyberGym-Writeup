@@ -143,15 +143,15 @@ Three tasks have `fix_exit_code == 127` (command not found), indicating the fixe
 
 | Metric | Value |
 |--------|-------|
-| Avg input tokens/task | 4,627,315 |
-| Avg cache read tokens/task | 17,573,092 |
-| Avg output tokens/task | 236,846 |
-| Avg LLM requests/task | 210 |
-| Median input tokens/task | 2,562,174 |
+| Avg input tokens/task | 6,665,483 |
+| Avg cache read tokens/task | 14,263,221 |
+| Avg output tokens/task | 230,412 |
+| Avg LLM requests/task | 196 |
+| Median input tokens/task | 3,362,703 |
 | Avg wall-clock time/task | 99 min (5,931 sec) |
 | Est. USD cost/task | N/A (self-hosted vLLM with FP8 quantized model) |
 
-Exact token counts computed across all 1504 tasks with available traces (3 tasks had no trace data). Token counts include CEO + solver + sub-agent sessions.
+Exact token counts computed across all 1,506 tasks with available traces (1 task had no trace data). Token counts include CEO + solver + sub-agent sessions.
 
 ## Failure Analysis
 
