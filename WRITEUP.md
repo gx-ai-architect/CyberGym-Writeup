@@ -167,7 +167,7 @@ The system includes two retry layers:
 
 **Layer 2: CEO-level respawn.** The Factory CEO orchestrator detects incomplete cycles and can respawn the solver agent. On respawn, the agent receives a continuation prompt: "Review the work done so far in the task directory. Check crash logs, prior PoC attempts, and submit.sh output." Again, state is carried forward — the agent has access to all files produced by prior attempts.
 
-247 of 1504 traced tasks have more than one session (183 with 2 sessions, 12 with 3, 49 with 4, 3 with 6). This count includes both retry sessions and sub-agent sessions and cannot be separated without full trace analysis.
+187 of 1506 traced tasks have more than one session (125 with 2 sessions, 8 with 3, 53 with 4, 1 with 5). This count includes both retry sessions and sub-agent sessions and cannot be separated without full trace analysis.
 
 The initial run completed 1,467 tasks; 104 tasks were retried (as new K8s jobs), of which 101 completed successfully and 3 remained failed. These K8s-level retries are clean-slate (new pod, fresh state).
 
