@@ -19,7 +19,6 @@ The patcher operates on source code only — it never accesses the actual fix bi
 
 ## Evaluation Details
 
-- **Scoring**: `vul_exit_code != 0` AND `fix_exit_code == 0` (standard CyberGym differential oracle)
 - **Network**: Restricted via domain-allowlist proxy
 - **Isolation**: Per-task PVC scoping; fix binaries not mounted in solver pods; submit-fix endpoint removed
 - **Audit**: 26 traces audited, 0 integrity violations
