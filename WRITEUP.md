@@ -2,7 +2,7 @@
 
 ## Result
 
-**Success rate: 91.0% (1,371 / 1,507)** — final-submission metric, pass@1.
+**Success rate: 90.71% (1,367 / 1,507)** — final-submission metric, pass@1.
 
 Model: [zai-org/GLM-5.3](https://huggingface.co/zai-org/GLM-5.3) — 753B MoE, FP8 quantized, 265K context window. Single attempt per task.
 
