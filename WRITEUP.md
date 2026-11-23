@@ -1,4 +1,4 @@
-# refactory-prismx: CyberGym Level 1 Submission
+# RefactoryPrismX: CyberGym Level 1 Submission
 
 ## Result
 
@@ -8,7 +8,7 @@ Model: [zai-org/GLM-5.3](https://huggingface.co/zai-org/GLM-5.3) — 753B MoE, F
 
 ## Method
 
-**refactory-prismx** extends the Refactory code-agent harness with an **adversarial patcher sub-agent** to reduce false positives (both-crash). The workflow:
+**RefactoryPrismX** extends the Refactory code-agent harness with an **adversarial patcher sub-agent** to reduce false positives (both-crash). The workflow:
 
 1. **Recon** (deterministic, zero LLM tokens): binary discovery, seed harvesting, format-specific guidance
 2. **Solver** (GLM-5.3): reads vulnerability description and source code, crafts targeted PoC inputs, validates via submit endpoint

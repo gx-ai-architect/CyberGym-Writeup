@@ -4,4 +4,4 @@ This repository records writeups and evaluation reports submitted for the [Cyber
 
 | File | Submission | Result | Date |
 |------|-----------|--------|------|
-| [WRITEUP.md](WRITEUP.md) | refactory-prismx · CyberGym Level 1 (Agent) · GLM-5.3 | 1,367 / 1,507 solved (90.71%) | 2026-10-14 |
+| [WRITEUP.md](WRITEUP.md) | RefactoryPrismX · CyberGym Level 1 (Agent) · GLM-5.3 | 1,367 / 1,507 solved (90.71%) | 2026-10-14 |
