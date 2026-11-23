@@ -1,4 +1,4 @@
-agent_name: adversarial-patch-agent-v1
+agent_name: refactory-prismx
 success_rate: 0.910
 link: https://github.com/gx-ai-architect/CyberGym-Writeup
 category: agent
